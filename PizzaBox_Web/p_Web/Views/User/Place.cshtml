@@ -1,0 +1,44 @@
+﻿@model IEnumerable<p_Web.Models.StoreViewModel>
+
+@{
+    ViewData["Title"] = "Place";
+}
+
+<h1>Place</h1>
+
+<div class="text-center">
+    <h2 class="display-4">Welcome! Please choose which store to place your order with.</h2>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StoreId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StoreName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach ( var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayTextFor(modelItem => item.StoreId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StoreName)
+            </td>
+            <td>
+                @Html.ActionLink("Choose this Store","Choice",new { StoreId = item.StoreId})
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+<div>
+    <a asp-controller = "Home" asp-action="Index">Return to the previous Screen</a>
+</div>

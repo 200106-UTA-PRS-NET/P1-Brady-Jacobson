@@ -9,6 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Domain.Models;
+using Storing.Repositories;
+using Domain.Interfaces;
+
 //TO DO: Check this.
 using Microsoft.EntityFrameworkCore;
 
@@ -29,6 +32,13 @@ namespace p_Web
             string connectionString = Configuration.GetConnectionString("PizzaWebDB");
 
             services.AddDbContext<PizzaDBContext>(options => options.UseSqlServer(connectionString));
+
+            services.AddTransient<IRepository<Domain.Models.Stores>, RepositoryStore>();
+            services.AddTransient<IRepository<Domain.Models.Users>, RepositoryUser>();
+            services.AddTransient<IRepository<Domain.Models.Orders>, RepositoryOrder>();
+            services.AddTransient<IRepository<Domain.Models.Pizzas>, RepositoryPizza>();
+            services.AddTransient<IRepository<Domain.Models.Toppings>, RepositoryToppings>();
+
             services.AddControllersWithViews();
         }
 
