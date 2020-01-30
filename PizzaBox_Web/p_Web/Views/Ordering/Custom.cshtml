@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "Custom";
+}
+
+<h1>Custom</h1>
+<div>
+    <p>Please choose the size, crust, and between 2 to 5 toppings before submitting.</p>
+</div>
+<div>
+    <form>
+        <div>
+        <input type="radio" name="Size" value="8-inch" checked />
+        = 8-inch.</div>
+        <div>
+        <input type="radio" name="Size" value="12-inch" />
+        = 12-inch. </div>
+        <div>
+        <input type="radio" name="Size" value="16-inch" />
+        = 16-inch. </div>
+    </form>
+    <form>
+        <div>
+        <input type="radio" name="Crust" value="Stuffed" checked />
+        = Stuffed. </div> 
+        <div>
+        <input type="radio" name="Crust" value="Thin-Crust" />
+        = Thin-Crust. </div>
+        <div>
+        <input type="radio" name="Crust" value="Original" />
+        = Original. </div>
+    </form>
+    <form>
+        <div>
+        <input type="checkbox" name="Topping" value="Cheddar-Cheese" checked />= Cheddar-Cheese.</div>
+        <input type="checkbox" name="Topping" value="Mozzarella-Sauce" checked />
+        <input type="checkbox" name="Topping" value="Sausage" />
+        <input type="checkbox" name="Topping" value="Pepperoni"/>
+        <input type="checkbox" name="Topping" value="Bacon"/>
+    </form>
+    <form>
+        <input type="submit" value="Submit Pizza" formaction="AddtoOrder" />
+    </form>
+</div>
+<div>
+    <a asp-controller="Home" asp-action="Index">Return to the Main Menu</a>
+</div>

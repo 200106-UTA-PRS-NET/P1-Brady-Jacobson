@@ -144,3 +144,8 @@ C:\Users\Brady\Desktop\Revature\P1-Brady-Jacobson\PizzaBox_Web\p_Web\obj\Debug\n
 C:\Users\Brady\Desktop\Revature\P1-Brady-Jacobson\PizzaBox_Web\p_Web\obj\Debug\netcoreapp3.1\Razor\Views\User\Recent.cshtml.g.cs
 C:\Users\Brady\Desktop\Revature\P1-Brady-Jacobson\PizzaBox_Web\p_Web\bin\Debug\netcoreapp3.1\Storing.dll
 C:\Users\Brady\Desktop\Revature\P1-Brady-Jacobson\PizzaBox_Web\p_Web\bin\Debug\netcoreapp3.1\Storing.pdb
+C:\Users\Brady\Desktop\Revature\P1-Brady-Jacobson\PizzaBox_Web\p_Web\obj\Debug\netcoreapp3.1\Razor\Views\Ordering\Choice.cshtml.g.cs
+C:\Users\Brady\Desktop\Revature\P1-Brady-Jacobson\PizzaBox_Web\p_Web\obj\Debug\netcoreapp3.1\Razor\Views\Ordering\Submit.cshtml.g.cs
+C:\Users\Brady\Desktop\Revature\P1-Brady-Jacobson\PizzaBox_Web\p_Web\obj\Debug\netcoreapp3.1\Razor\Views\Ordering\Custom.cshtml.g.cs
+C:\Users\Brady\Desktop\Revature\P1-Brady-Jacobson\PizzaBox_Web\p_Web\obj\Debug\netcoreapp3.1\Razor\Views\Ordering\Preset.cshtml.g.cs
+C:\Users\Brady\Desktop\Revature\P1-Brady-Jacobson\PizzaBox_Web\p_Web\obj\Debug\netcoreapp3.1\Razor\Views\Ordering\Preview.cshtml.g.cs

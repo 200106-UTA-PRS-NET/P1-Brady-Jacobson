@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Preset";
+}
+
+<h1>Preset</h1>
+<div>
+    <p>Please choose which pizza you would like to add:</p>
+</div>
+<div>
+    <form asp-controller="Ordering" asp-method="Post">
+        <input type="Submit" value="Hawaiian" formaction="AddtoOrder" />
+        <input type="Submit" value="Canadian" formaction="AddtoOrder" />
+        <input type="Submit" value="American" formaction="AddtoOrder" />
+        <input type="Submit" value="Italian" formaction="AddtoOrder" />
+        <input type="Submit" value="BBQ" formaction="AddtoOrder" />
+    </form>
+</div>
+<div>
+    <a asp-controller="Home" asp-action="Index">Return to the Main Menu</a>
+</div>

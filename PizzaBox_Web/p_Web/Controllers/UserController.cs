@@ -51,20 +51,6 @@ namespace p_Web.Controllers
             return View();
         }
 
-        public IActionResult Place()
-        {
-            var allStores = _repoStores.Getp();
-            List<StoreViewModel> sVM = new List<StoreViewModel>();
-            foreach(var item in allStores)
-            {
-                StoreViewModel s = new StoreViewModel();
-                s.StoreCode = item.StoreCode;
-                s.StoreName = item.StoreName;
-                s.StoreId = item.StoreId;
-                sVM.Add(s);
-            }
-            return View(sVM);
-        }
         public IActionResult Recent()
         {
             return View();
@@ -74,6 +60,20 @@ namespace p_Web.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+        public IActionResult Place()
+        {
+            var allStores = _repoStores.Getp();
+            List<StoreViewModel> sVM = new List<StoreViewModel>();
+            foreach (var item in allStores)
+            {
+                StoreViewModel s = new StoreViewModel();
+                s.StoreCode = item.StoreCode;
+                s.StoreName = item.StoreName;
+                s.StoreId = item.StoreId;
+                sVM.Add(s);
+            }
+            return View(sVM);
         }
     }
 }

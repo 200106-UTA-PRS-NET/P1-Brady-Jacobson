@@ -33,7 +33,7 @@
                 @Html.DisplayFor(modelItem => item.StoreName)
             </td>
             <td>
-                @Html.ActionLink("Choose this Store","Choice",new { StoreId = item.StoreId})
+               @Html.ActionLink("Choose this Store","Choice","Ordering",new { StoreId = item.StoreId})
             </td>
         </tr>
     }
