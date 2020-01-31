@@ -13,4 +13,10 @@
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\P0-Brady-Jacobson\PizzaBox\Domain\Domain.csproj" />
+    <ProjectReference Include="..\..\..\P0-Brady-Jacobson\PizzaBox\Storing\Storing.csproj" />
+    <ProjectReference Include="..\p_Web\p_Web.csproj" />
+  </ItemGroup>
+
 </Project>

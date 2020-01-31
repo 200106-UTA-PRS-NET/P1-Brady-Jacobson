@@ -1,4 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using p_Web.Controllers;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
 
 namespace TestPizza
 {
@@ -6,11 +9,39 @@ namespace TestPizza
     public class UnitTest1
     {
         [TestMethod]
-        public void Index()
+        public void OrderA()
         {
-            //EmployeeController controler = new EmployeeController(new MockRepository());
-            //var result = controler.index() as viewResult;
-            Assert.Equals(1, 1);
+            PlacePizzaController controller = new PlacePizzaController(new MockRepo());
+            var result = controller.AddtoOrderA() as ViewResult;
+            Assert.Equals(result.ViewName, "AddToppingssA");
+        }
+        [TestMethod]
+        public void OrderB()
+        {
+            PlacePizzaController controller = new PlacePizzaController(new MockRepo());
+            var result = controller.AddtoOrderB() as ViewResult;
+            Assert.Equals(result.ViewName, "AddToppingssB");
+        }
+        [TestMethod]
+        public void OrderC()
+        {
+            PlacePizzaController controller = new PlacePizzaController(new MockRepo());
+            var result = controller.AddtoOrderC() as ViewResult;
+            Assert.Equals(result.ViewName, "AddToppingssC");
+        }
+        [TestMethod]
+        public void OrderH()
+        {
+            PlacePizzaController controller = new PlacePizzaController(new MockRepo());
+            var result = controller.AddtoOrderH() as ViewResult;
+            Assert.Equals(result.ViewName, "AddToppingssH");
+        }
+        [TestMethod]
+        public void OrderI()
+        {
+            PlacePizzaController controller = new PlacePizzaController(new MockRepo());
+            var result = controller.AddtoOrderI() as ViewResult;
+            Assert.Equals(result.ViewName, "AddToppingssI");
         }
     }
 }
