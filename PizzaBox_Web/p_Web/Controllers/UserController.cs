@@ -33,22 +33,7 @@ namespace p_Web.Controllers
 
         public IActionResult History()
         {
-            ////if (pdb.Stores.Any(e => e.StoreName == p.StoreName))
-            ////    return null;
-            Stores s = new Stores()
-            {
-                StoreName = "Walmart",
-                StoreCode = "Dumdums"
-            };
-            _repoStores.Addp(s);
-
-            ////pdb.Stores.Add(p);
-            ////pdb.SaveChanges();
-            ////var a = pdb.Stores.FirstOrDefault(d => d.StoreName == p.StoreName);
-            ////Console.WriteLine($"Added Store {a.StoreName} to Table 'Stores'");
-            ////return a;
-
-            return View();
+            return RedirectToAction("HistoryPizzas","PlaceOrder");
         }
 
         public IActionResult Recent()
@@ -61,6 +46,7 @@ namespace p_Web.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
         public IActionResult Place()
         {
             var allStores = _repoStores.Getp();
@@ -73,6 +59,7 @@ namespace p_Web.Controllers
                 s.StoreId = item.StoreId;
                 sVM.Add(s);
             }
+            TempData["CurrentUser"] = 1;
             return View(sVM);
         }
     }

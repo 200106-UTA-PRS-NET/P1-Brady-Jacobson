@@ -1,4 +1,5 @@
-﻿
+﻿@model IEnumerable<p_Web.Models.OrderViewModel>
+
 @{
     ViewData["Title"] = "History";
 }
@@ -7,6 +8,43 @@
 <div class="text-center">
     <h1 class="display-4">Welcome to Order History</h1>
 </div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StoreID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PizzaAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderedTime)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StoreID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PizzaAmount)
+            </td>
+            <td>
+                @Html.DisplayTextFor(modelItem => item.Cost)
+            </td>
+            <td>
+                @Html.DisplayTextFor(modelItem => item.OrderedTime)
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
 <div>
     <a asp-controller="Home" asp-action="Index">Return to the previous Screen</a>
 </div>

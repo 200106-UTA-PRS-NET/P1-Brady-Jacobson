@@ -25,6 +25,11 @@ namespace p_Web.Controllers
             return View();
         }
 
+        public IActionResult Return()
+        {
+            return View("/Views/Ordering/Choice.cshtml");
+        }
+
         [HttpGet("{StoreId}")]
         public IActionResult Choice([FromRoute]int StoreId)
         {
@@ -35,7 +40,10 @@ namespace p_Web.Controllers
                 StoreId = thisStore.StoreId,
                 StoreName = thisStore.StoreName
             };
-            return View(sVM);
+            TempData["CurrentStore"] = sVM.StoreId;
+            TempData["PizzaAmount"] = 0;
+            TempData["PizzaCost"] = 0;
+            return RedirectToAction("Submit","PlaceOrder");
         }
 
         public IActionResult Preset()
@@ -45,6 +53,39 @@ namespace p_Web.Controllers
         public IActionResult Custom()
         {
             return View();
+        }
+
+        public IActionResult Submit()
+        {
+            return RedirectToAction("Done", "PlacePizza");
+        }
+        public IActionResult Preview()
+        {
+            return RedirectToAction("PreviewPizzas", "PlacePizza");
+        }
+        public IActionResult AddtoOrderH()
+        {
+            return RedirectToAction("AddtoOrderH", "PlacePizza");
+        }
+
+        public IActionResult AddtoOrderB()
+        {
+            return RedirectToAction("AddtoOrderB", "PlacePizza");
+        }
+
+        public IActionResult AddtoOrderA()
+        {
+            return RedirectToAction("AddtoOrderA", "PlacePizza");
+        }
+
+        public IActionResult AddtoOrderI()
+        {
+            return RedirectToAction("AddtoOrderI", "PlacePizza");
+        }
+       
+        public IActionResult AddtoOrderC()
+        {
+            return RedirectToAction("AddtoOrderC", "PlacePizza");
         }
     }
 }

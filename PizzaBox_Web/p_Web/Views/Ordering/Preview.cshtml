@@ -1,7 +1,42 @@
-﻿
+﻿@model IEnumerable<p_Web.Models.PizzaViewModel>
+
+
 @{
     ViewData["Title"] = "Preview";
 }
 
 <h1>Preview</h1>
-
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Crust)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Size)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PizzaCost)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayTextFor(modelItem => item.Crust)
+            </td>
+            <td>
+                @Html.DisplayTextFor(modelItem => item.Size)
+            </td>
+            <td>
+                $@Html.DisplayFor(modelItem => item.PizzaCost)
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+<div>
+    <a asp-controller="Ordering" asp-action="return">Return to the Main Menu</a>
+</div>

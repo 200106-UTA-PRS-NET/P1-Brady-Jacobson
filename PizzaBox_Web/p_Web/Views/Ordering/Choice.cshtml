@@ -1,6 +1,4 @@
-﻿@model p_Web.Models.StoreViewModel
-
-@{
+﻿@{
     ViewData["Title"] = "Choice";
 }
 
@@ -9,7 +7,7 @@
     <p>Welcome to your order menu.</p>
 </div>
 <div>
-    <p>@Html.DisplayFor(model => model.StoreName)</p>
+    <p>The amount of pizzas you have ordered are @TempData.Peek("PizzaAmount") pizzas.</p>
 </div>
 <div>
     <a asp-controller="Ordering" asp-action="Preset">Order a Preset Pizza</a>
@@ -18,11 +16,11 @@
     <a asp-controller="Ordering" asp-action="Custom">Order a Custom Pizza</a>
 </div>
 <div>
-    <a asp-controller="Ordering" asp-action="Submit">Submit your Order</a>
-</div>
-<div>
     <a asp-controller="Ordering" asp-action="Preview">View your Current Order</a>
 </div>
 <div>
-    <a asp-controller="Home" asp-action="Index">Return to the Main Menu</a>
+    <a asp-controller="Ordering" asp-action="Submit">Submit your Order</a>
+</div>
+<div>
+    <a asp-controller="User" asp-action="Place">Return to the Store Menu</a>
 </div>
