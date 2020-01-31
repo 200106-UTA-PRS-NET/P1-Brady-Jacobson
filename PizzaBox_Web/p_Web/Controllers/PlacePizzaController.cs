@@ -41,7 +41,7 @@ namespace p_Web.Controllers
             {
                 PizzaViewModel s = new PizzaViewModel();
                 s.Crust = item.Crust;
-                s.Size = item.Crust;
+                s.Size = item.Size;
                 s.PizzaCost = item.PizzaCost;
                 pVM.Add(s);
             }

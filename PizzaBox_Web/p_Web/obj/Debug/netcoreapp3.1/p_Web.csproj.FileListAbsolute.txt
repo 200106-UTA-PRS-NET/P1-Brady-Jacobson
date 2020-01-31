@@ -154,3 +154,5 @@ C:\Users\Brady\Desktop\Revature\P1-Brady-Jacobson\PizzaBox_Web\p_Web\obj\Debug\n
 C:\Users\Brady\Desktop\Revature\P1-Brady-Jacobson\PizzaBox_Web\p_Web\obj\Debug\netcoreapp3.1\Razor\Views\Ordering\AddtoOrderC.cshtml.g.cs
 C:\Users\Brady\Desktop\Revature\P1-Brady-Jacobson\PizzaBox_Web\p_Web\obj\Debug\netcoreapp3.1\Razor\Views\Ordering\AddtoOrderI.cshtml.g.cs
 C:\Users\Brady\Desktop\Revature\P1-Brady-Jacobson\PizzaBox_Web\p_Web\obj\Debug\netcoreapp3.1\Razor\Views\Ordering\AddtoOrderH.cshtml.g.cs
+C:\Users\Brady\Desktop\Revature\P1-Brady-Jacobson\PizzaBox_Web\p_Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\Brady\Desktop\Revature\P1-Brady-Jacobson\PizzaBox_Web\p_Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\FailedSignIn.cshtml.g.cs

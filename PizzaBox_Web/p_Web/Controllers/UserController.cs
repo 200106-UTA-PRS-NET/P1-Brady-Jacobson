@@ -33,12 +33,29 @@ namespace p_Web.Controllers
 
         public IActionResult History()
         {
+            if (TempData.Peek("CurrentUser") == null)
+            {
+                return View("/Views/Home/FailedSignIn.cshtml");
+            }
             return RedirectToAction("HistoryPizzas","PlaceOrder");
         }
 
         public IActionResult Recent()
         {
             return View();
+        }
+
+        public IActionResult LoggingIn()
+        {
+            return View("/Views/Home/Login.cshtml");
+        }
+
+        [HttpPost]
+        public IActionResult AttemptEnter()
+        {
+            TempData["ourName"] = HttpContext.Request.Form["UserName"].ToString();
+            TempData["ourCode"] = HttpContext.Request.Form["PassCode"].ToString();
+            return RedirectToAction("AttemptEnter", "UserLogIn");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -49,6 +66,10 @@ namespace p_Web.Controllers
 
         public IActionResult Place()
         {
+            if(TempData.Peek("CurrentUser")==null)
+            {
+                return View("/Views/Home/FailedSignIn.cshtml");
+            }
             var allStores = _repoStores.Getp();
             List<StoreViewModel> sVM = new List<StoreViewModel>();
             foreach (var item in allStores)
@@ -59,7 +80,6 @@ namespace p_Web.Controllers
                 s.StoreId = item.StoreId;
                 sVM.Add(s);
             }
-            TempData["CurrentUser"] = 1;
             return View(sVM);
         }
     }

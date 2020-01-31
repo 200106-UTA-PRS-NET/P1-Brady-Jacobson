@@ -45,7 +45,6 @@ namespace p_Web.Controllers
 
             var realOrder = _repoOrders.Addp(newO);
             TempData["CurrentOrder"] = realOrder.OrderId;
-            TempData["CurrentUser"] = 1;
             return View("/Views/Ordering/Choice.cshtml");
         }
 
