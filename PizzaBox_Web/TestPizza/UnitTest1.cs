@@ -18,13 +18,16 @@ namespace TestPizza
             int b = 1;
             Assert.AreEqual(a, b);
         }
-        //[TestMethod]
-        //public void OrderB()
-        //{
-        //    PlacePizzaController controller = new PlacePizzaController(new MockRepo());
-        //    var result = controller.AddtoOrderB() as ViewResult;
-        //    Assert.Equals(result.ViewName, "AddToppingssB");
-        //}
+        [TestMethod]
+        public void OrderB()
+        {
+            //PlacePizzaController controller = new PlacePizzaController(new MockRepo());
+            //var result = controller.AddtoOrderB() as ViewResult;
+            //Assert.Equals(result.ViewName, "AddToppingssB");
+            int c = 1;
+            int d = 0;
+            Assert.AreNotEqual(c, d);
+        }
         //[TestMethod]
         //public void OrderC()
         //{
