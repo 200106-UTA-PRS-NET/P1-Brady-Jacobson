@@ -19,11 +19,11 @@ steps:
 
 - task: SonarCloudPrepare@1
   inputs:
-    SonarCloud: 'SonarCloud conneciton 1'
-    organization: '200106-UTA-PRS-NET'
+    SonarCloud: 'newpizzabox'
+    organization: 'pizzaboxorganization'
     scannerMode: 'MSBuild'
-    projectKey: 'PizzaBox'
-    projectName: 'Pizza'
+    projectKey: 'thepizzabox'
+    projectName: 'pizza_box_azure_devops'
 
 - script: dotnet build 
     --configuration $(buildConfiguration)
