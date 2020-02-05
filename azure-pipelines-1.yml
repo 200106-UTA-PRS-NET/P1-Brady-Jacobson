@@ -16,7 +16,17 @@ variables:
   pathtoproject: 'PizzaBox_Web/p_Web'
 
 steps:
-- script: dotnet build --configuration $(buildConfiguration)
+
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'SonarCloud conneciton 1'
+    organization: '200106-UTA-PRS-NET'
+    scannerMode: 'MSBuild'
+    projectKey: 'PizzaBox'
+    projectName: 'Pizza'
+
+- script: dotnet build 
+    --configuration $(buildConfiguration)
   workingDirectory: $(pathtosolution)
   displayName: 'dotnet build $(buildConfiguration)'
 
@@ -28,3 +38,24 @@ steps:
     /p:CollectCoverage=true
   workingDirectory: $(pathtosolution)
   displayName: 'dotnet test'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'test'
+    projects: '$(pathtotest)'
+    workingDirectory: '$(pathtosolution)'
+
+- task: SonarCloudAnalyze@1
+
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'publish'
+    arguments: --configuration $(buildConfiguration)
+    publishWebProjects: true
+    zipAfterPublish: true
+    workingDirectory: '$(pathtosolution)'
+  displayName: 'dotnet publish + zip'
