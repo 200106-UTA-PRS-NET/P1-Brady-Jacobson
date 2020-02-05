@@ -1,0 +1,11 @@
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Storing\bin\Debug\netcoreapp3.1\Storing.deps.json
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Storing\bin\Debug\netcoreapp3.1\Storing.dll
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Storing\bin\Debug\netcoreapp3.1\Storing.pdb
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Storing\obj\Debug\netcoreapp3.1\Storing.csprojAssemblyReference.cache
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Storing\obj\Debug\netcoreapp3.1\Storing.AssemblyInfoInputs.cache
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Storing\obj\Debug\netcoreapp3.1\Storing.AssemblyInfo.cs
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Storing\obj\Debug\netcoreapp3.1\Storing.dll
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Storing\obj\Debug\netcoreapp3.1\Storing.pdb
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Storing\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Storing\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Storing\obj\Debug\netcoreapp3.1\Storing.csproj.CopyComplete

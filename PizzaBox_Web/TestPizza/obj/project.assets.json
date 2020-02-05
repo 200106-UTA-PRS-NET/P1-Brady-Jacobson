@@ -9496,8 +9496,8 @@
     },
     "Domain/1.0.0": {
       "type": "project",
-      "path": "../../../P0-Brady-Jacobson/PizzaBox/Domain/Domain.csproj",
-      "msbuildProject": "../../../P0-Brady-Jacobson/PizzaBox/Domain/Domain.csproj"
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     },
     "p_Web/1.0.0": {
       "type": "project",
@@ -9506,8 +9506,8 @@
     },
     "Storing/1.0.0": {
       "type": "project",
-      "path": "../../../P0-Brady-Jacobson/PizzaBox/Storing/Storing.csproj",
-      "msbuildProject": "../../../P0-Brady-Jacobson/PizzaBox/Storing/Storing.csproj"
+      "path": "../Storing/Storing.csproj",
+      "msbuildProject": "../Storing/Storing.csproj"
     }
   },
   "projectFileDependencyGroups": {

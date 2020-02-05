@@ -1,0 +1,10 @@
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Domain\bin\Debug\netcoreapp3.1\Domain.runtimeconfig.json
+C:\Users\Brady\Desktop\Revature\P0-Brady-Jacobson\PizzaBox\Domain\bin\Debug\netcoreapp3.1\Domain.runtimeconfig.dev.json

@@ -8205,13 +8205,13 @@
     },
     "Domain/1.0.0": {
       "type": "project",
-      "path": "../../../P0-Brady-Jacobson/PizzaBox/Domain/Domain.csproj",
-      "msbuildProject": "../../../P0-Brady-Jacobson/PizzaBox/Domain/Domain.csproj"
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     },
     "Storing/1.0.0": {
       "type": "project",
-      "path": "../../../P0-Brady-Jacobson/PizzaBox/Storing/Storing.csproj",
-      "msbuildProject": "../../../P0-Brady-Jacobson/PizzaBox/Storing/Storing.csproj"
+      "path": "../Storing/Storing.csproj",
+      "msbuildProject": "../Storing/Storing.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8254,11 +8254,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj"
+            "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj": {
-              "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj"
+            "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj": {
+              "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj"
             }
           }
         }

@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p_Web", "p_Web\p_Web.csproj", "{C81AF5C7-F83C-458D-B54D-3C190207173D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\..\P0-Brady-Jacobson\PizzaBox\Domain\Domain.csproj", "{3BF66D45-20FA-4364-B48F-84A3831000C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{3BF66D45-20FA-4364-B48F-84A3831000C4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPizza", "TestPizza\TestPizza.csproj", "{E57C9387-3479-4A18-8342-F322DDC80C12}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storing", "..\..\P0-Brady-Jacobson\PizzaBox\Storing\Storing.csproj", "{A4E308BA-CFF6-4C7A-A504-4EB4537ECE97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storing", "Storing\Storing.csproj", "{A4E308BA-CFF6-4C7A-A504-4EB4537ECE97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
