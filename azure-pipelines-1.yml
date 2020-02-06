@@ -60,14 +60,14 @@ steps:
     workingDirectory: '$(pathtosolution)'
   displayName: 'dotnet publish + zip'
 
-- task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'publishP1'
+#- task: PublishBuildArtifacts@1
+#  inputs:
+#    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+#    ArtifactName: 'publishP1'
 
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'Azure subscription 1(cdfdc896-8bae-429f-9986-39e7c94cad84)'
     appType: 'webAppLinux'
     appName: 'PublishPizzaWebB'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    package: '$(System.ArtifactsDirectory)/**/*.zip'
