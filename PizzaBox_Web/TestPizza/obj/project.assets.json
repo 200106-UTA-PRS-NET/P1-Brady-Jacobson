@@ -9512,11 +9512,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Domain >= 1.0.0",
+      "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj",
+      "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj",
       "MSTest.TestAdapter >= 2.0.0",
       "MSTest.TestFramework >= 2.0.0",
       "Microsoft.NET.Test.Sdk >= 16.2.0",
-      "Storing >= 1.0.0",
       "coverlet.collector >= 1.0.1",
       "p_Web >= 1.0.0"
     ]
@@ -9528,11 +9528,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\TestPizza.csproj",
+      "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\TestPizza.csproj",
       "projectName": "TestPizza",
-      "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\TestPizza.csproj",
+      "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\TestPizza.csproj",
       "packagesPath": "C:\\Users\\Brady\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\obj\\",
+      "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9551,14 +9551,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj"
+            "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj": {
-              "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj"
+            "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj": {
+              "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj"
             },
-            "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj": {
-              "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj"
+            "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj": {
+              "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj"
             }
           }
         }
@@ -9610,5 +9610,25 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

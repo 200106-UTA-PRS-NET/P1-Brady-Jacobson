@@ -8231,11 +8231,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj",
+      "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj",
       "projectName": "p_Web",
-      "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj",
+      "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj",
       "packagesPath": "C:\\Users\\Brady\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\obj\\",
+      "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8254,11 +8254,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj"
+            "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj": {
-              "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj"
+            "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj": {
+              "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj"
             }
           }
         }

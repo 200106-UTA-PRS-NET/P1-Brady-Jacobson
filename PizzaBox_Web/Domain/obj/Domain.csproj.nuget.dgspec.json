@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj": {
+    "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Brady\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

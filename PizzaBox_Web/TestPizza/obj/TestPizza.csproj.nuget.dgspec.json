@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\TestPizza.csproj": {}
+    "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\TestPizza.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj": {
+    "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Brady\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -77,146 +77,14 @@
         }
       }
     },
-    "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj": {
+    "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj",
-        "projectName": "Storing",
-        "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj",
-        "packagesPath": "C:\\Users\\Brady\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Storing\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Brady\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Brady\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Brady\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj",
+        "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj",
         "projectName": "p_Web",
-        "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj",
+        "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj",
         "packagesPath": "C:\\Users\\Brady\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\obj\\",
+        "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -235,11 +103,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj"
+              "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj": {
-                "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj"
+              "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj": {
+                "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj"
               }
             }
           }
@@ -294,14 +162,14 @@
         }
       }
     },
-    "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj": {
+    "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj",
+        "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj",
         "projectName": "Storing",
-        "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj",
+        "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\Storing.csproj",
         "packagesPath": "C:\\Users\\Brady\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\obj\\",
+        "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Storing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -320,8 +188,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj"
+              "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\Domain\\Domain.csproj"
               }
             }
           }
@@ -353,14 +221,14 @@
         }
       }
     },
-    "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\TestPizza.csproj": {
+    "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\TestPizza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\TestPizza.csproj",
+        "projectUniqueName": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\TestPizza.csproj",
         "projectName": "TestPizza",
-        "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\TestPizza.csproj",
+        "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\TestPizza.csproj",
         "packagesPath": "C:\\Users\\Brady\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\obj\\",
+        "outputPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\TestPizza\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -379,14 +247,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj"
+              "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P0-Brady-Jacobson\\PizzaBox\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj": {
-                "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj"
+              "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj": {
+                "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P0-Brady-Jacobson\\PizzaBox\\Storing\\Storing.csproj"
               },
-              "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj": {
-                "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj"
+              "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj": {
+                "projectPath": "C:\\Users\\Brady\\Desktop\\Revature\\P1-Brady-Jacobson\\P1-Brady-Jacobson\\PizzaBox_Web\\p_Web\\p_Web.csproj"
               }
             }
           }
